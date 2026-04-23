@@ -21,7 +21,7 @@ def mains(ccv1,ccv2,plcv1,plcv2):
 	plhc = hitreg()
 
 	if plhc == 1:
-		plcv2 = plcv2+random.randint(1,10)
+		plcv1 = plcv1+random.randint(1,10)
 
 	elif ccvt < 17:
 		ccv1 = ccv1 + random.randint(1,10)
