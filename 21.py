@@ -62,8 +62,10 @@ def gloop(Cv1,Cv2,Pv1,Pv2):
 	Gpct = Gpcv1 + Gpcv2
 	if Gpct > 21:
 		print("You went bust\nYou lose")
+		ploop()
 	elif Gcct > 21:
 		print("The dealer went bust\nYou win!")
+		ploop()
 	elif neg == 0:
 		if Gcct < 16:
 			Gccv1 = Gccv1 + random.randint(1,10)
